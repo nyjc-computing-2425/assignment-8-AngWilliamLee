@@ -42,8 +42,7 @@ def is_palindrome(str):
         return True
         
     if str[0] == str[-1]:
-        newstr = str[1:-1]
-        return is_palindrome(newstr)
+        return is_palindrome(str[1:-1])
     else:
         return False
         
